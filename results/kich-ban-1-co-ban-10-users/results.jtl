@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792719054233,40,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,332,197,1,1,http://127.0.0.1:8089/,35,0,28
+1792719054416,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2268,209,1,1,http://127.0.0.1:8089/api/products,2,0,1
+1792719054797,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,264,211,2,2,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719055034,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,332,197,2,2,http://127.0.0.1:8089/,2,0,1
+1792719055147,4,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2268,209,2,2,http://127.0.0.1:8089/api/products,3,0,1
+1792719055150,24,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2241,225,2,2,http://127.0.0.1:8089/api/products/search?q=Laptop,24,0,3
+1792719055292,4,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,264,211,2,2,http://127.0.0.1:8089/api/products/1,4,0,3
+1792719055350,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,4488,206,2,2,http://127.0.0.1:8089/api/users,2,0,1
+1792719055618,6,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-1,text,true,,245,259,2,2,http://127.0.0.1:8089/api/orders,6,0,4
+1792719055670,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2241,225,2,2,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,1
+1792719055930,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,332,197,3,3,http://127.0.0.1:8089/,2,0,0
+1792719055970,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,4488,206,3,3,http://127.0.0.1:8089/api/users,2,0,1
+1792719055999,6,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,332,197,3,3,http://127.0.0.1:8089/,6,0,2
+1792719056055,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2268,209,3,3,http://127.0.0.1:8089/api/products,2,0,1
+1792719056160,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2268,209,3,3,http://127.0.0.1:8089/api/products,2,0,0
+1792719056203,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,264,211,3,3,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719056305,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-2,text,true,,245,259,3,3,http://127.0.0.1:8089/api/orders,2,0,1
+1792719056431,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2241,225,3,3,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,1
+1792719056553,4,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,264,211,3,3,http://127.0.0.1:8089/api/products/1,4,0,1
+1792719056594,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,332,197,3,3,http://127.0.0.1:8089/,3,0,1
+1792719056690,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,4488,206,3,3,http://127.0.0.1:8089/api/users,3,0,2
+1792719056782,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,3,0,1
+1792719056871,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,332,197,4,4,http://127.0.0.1:8089/,2,0,1
+1792719056947,24,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,24,0,1
+1792719056998,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-1,text,true,,245,259,4,4,http://127.0.0.1:8089/api/orders,2,0,1
+1792719057027,4,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,4,0,3
+1792719057256,4,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,4,0,2
+1792719057273,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,1,0,1
+1792719057347,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,332,197,4,4,http://127.0.0.1:8089/,2,0,0
+1792719057346,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719057472,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,2,0,1
+1792719057575,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-3,text,true,,245,259,4,4,http://127.0.0.1:8089/api/orders,2,0,1
+1792719057628,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719057665,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,2,0,1
+1792719057693,1,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-2,text,true,,245,259,4,4,http://127.0.0.1:8089/api/orders,1,0,0
+1792719057799,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,332,197,5,5,http://127.0.0.1:8089/,3,0,1
+1792719057846,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,264,211,5,5,http://127.0.0.1:8089/api/products/1,3,0,1
+1792719057945,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,332,197,5,5,http://127.0.0.1:8089/,2,0,1
+1792719057984,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2241,225,5,5,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719058108,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,4488,206,5,5,http://127.0.0.1:8089/api/users,2,0,1
+1792719058109,4,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,332,197,5,5,http://127.0.0.1:8089/,4,0,1
+1792719058159,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2241,225,5,5,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719058201,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2268,209,5,5,http://127.0.0.1:8089/api/products,2,0,1
+1792719058217,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2268,209,5,5,http://127.0.0.1:8089/api/products,3,0,1
+1792719058274,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2268,209,5,5,http://127.0.0.1:8089/api/products,2,0,1
+1792719058368,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,4488,206,5,5,http://127.0.0.1:8089/api/users,2,0,1
+1792719058410,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-4,text,true,,245,259,5,5,http://127.0.0.1:8089/api/orders,1,0,1
+1792719058446,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,264,211,5,5,http://127.0.0.1:8089/api/products/1,1,0,1
+1792719058487,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,264,211,5,5,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719058558,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,332,197,5,5,http://127.0.0.1:8089/,3,0,1
+1792719058621,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,264,211,5,5,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719058710,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,2
+1792719058736,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,1,0,1
+1792719058768,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-1,text,true,,245,259,6,6,http://127.0.0.1:8089/api/orders,2,0,1
+1792719058748,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,0
+1792719058820,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719058943,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,1
+1792719058996,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,1,0,1
+1792719059012,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,1,0,0
+1792719059053,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,1,0,0
+1792719059115,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,332,197,6,6,http://127.0.0.1:8089/,3,0,1
+1792719059129,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,2,0,1
+1792719059161,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,2,0,0
+1792719059155,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,2
+1792719059195,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-2,text,true,,245,259,6,6,http://127.0.0.1:8089/api/orders,2,0,1
+1792719059267,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-5,text,true,,245,259,6,6,http://127.0.0.1:8089/api/orders,3,0,1
+1792719059276,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,1,0,0
+1792719059316,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-3,text,true,,246,259,6,6,http://127.0.0.1:8089/api/orders,2,0,1
+1792719059319,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,1,0,0
+1792719059421,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,1
+1792719059454,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719059554,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,3,0,2
+1792719059574,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719059642,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,332,197,6,6,http://127.0.0.1:8089/,1,0,0
+1792719059656,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-4,text,true,,246,259,6,6,http://127.0.0.1:8089/api/orders,2,0,0
+1792719059709,5,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,332,197,6,6,http://127.0.0.1:8089/,5,0,1
+1792719059763,24,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,24,0,1
+1792719059809,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,2,0,0
+1792719059829,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,332,197,7,7,http://127.0.0.1:8089/,1,0,0
+1792719059860,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,1,0,1
+1792719059867,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,332,197,7,7,http://127.0.0.1:8089/,2,0,1
+1792719059908,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,2,0,0
+1792719059932,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,3,0,1
+1792719059981,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,1,0,0
+1792719060004,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,1,0,0
+1792719060067,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719060140,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-6,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,1,0,0
+1792719060207,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-1,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,2,0,1
+1792719060242,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719060257,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,3,0,1
+1792719060351,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719060368,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,332,197,7,7,http://127.0.0.1:8089/,2,0,1
+1792719060380,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719060432,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719060457,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719060551,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,332,197,7,7,http://127.0.0.1:8089/,2,0,1
+1792719060575,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719060610,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719060629,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,3,0,2
+1792719060696,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,3,0,1
+1792719060696,24,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,24,0,1
+1792719060783,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,1
+1792719060798,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,0
+1792719060798,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,3,0,2
+1792719060847,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,332,197,8,8,http://127.0.0.1:8089/,2,0,1
+1792719060864,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719060905,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719060963,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-5,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719060964,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-2,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,0
+1792719060978,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719061063,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-3,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719061085,5,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,5,0,1
+1792719061098,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,1
+1792719061164,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,332,197,8,8,http://127.0.0.1:8089/,2,0,1
+1792719061154,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719061246,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719061227,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719061305,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,332,197,8,8,http://127.0.0.1:8089/,2,0,1
+1792719061355,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-1,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,2
+1792719061392,4,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-4,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,4,0,1
+1792719061392,4,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,4,0,1
+1792719061399,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,1,0,0
+1792719061419,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719061446,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,332,197,8,8,http://127.0.0.1:8089/,2,0,1
+1792719061467,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-1,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719061510,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,3,0,1
+1792719061575,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-7,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,3,0,1
+1792719061617,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,332,197,7,7,http://127.0.0.1:8089/,2,0,1
+1792719061683,9,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,9,0,4
+1792719061695,5,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,4,0,1
+1792719061724,7,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-6,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,7,0,4
+1792719061774,4,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,332,197,8,8,http://127.0.0.1:8089/,4,0,3
+1792719061795,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-8,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719061807,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,0
+1792719061838,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719061872,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719061940,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719061948,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,3,0,1
+1792719062033,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719062036,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,1
+1792719062046,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,1
+1792719062055,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719062095,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719062098,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,1
+1792719062164,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719062226,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,0
+1792719062233,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,1,0,0
+1792719062251,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,0
+1792719062258,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719062246,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062302,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719062311,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062377,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719062384,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,1,0,1
+1792719062406,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-5,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719062385,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,1
+1792719062492,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062518,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062578,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,1
+1792719062569,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062611,0,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,332,197,8,8,http://127.0.0.1:8089/,0,0,0
+1792719062603,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719062648,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,1,0,0
+1792719062686,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-2,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,1,0,0
+1792719062764,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,4488,206,9,9,http://127.0.0.1:8089/api/users,1,0,0
+1792719062788,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,4488,206,9,9,http://127.0.0.1:8089/api/users,2,0,1
+1792719062794,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2268,209,9,9,http://127.0.0.1:8089/api/products,2,0,0
+1792719062843,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-2,text,true,,246,259,9,9,http://127.0.0.1:8089/api/orders,1,0,0
+1792719062845,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-3,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719062860,1,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-4,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,1,0,0
+1792719062914,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,0
+1792719062974,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-6,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719062982,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,1
+1792719063001,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063014,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063072,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-7,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719063079,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063131,1,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-9,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,1,0,0
+1792719063171,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719063180,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719063184,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719063202,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063255,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,0
+1792719063281,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063353,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-8,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719063380,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,1
+1792719063389,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,2,0,1
+1792719063432,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719063466,3,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,332,197,8,8,http://127.0.0.1:8089/,3,0,1
+1792719063456,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719063484,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,0
+1792719063494,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719063527,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719063534,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719063569,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719063678,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,1
+1792719063680,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,0
+1792719063681,24,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719063710,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-4,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,1
+1792719063747,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,332,197,8,8,http://127.0.0.1:8089/,1,0,0
+1792719063757,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2268,209,8,8,http://127.0.0.1:8089/api/products,1,0,1
+1792719063761,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719063838,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2241,225,8,8,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719063869,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,264,211,8,8,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719063925,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,4488,206,8,8,http://127.0.0.1:8089/api/users,2,0,1
+1792719063940,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-4,text,true,,246,259,8,8,http://127.0.0.1:8089/api/orders,2,0,1
+1792719063968,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-5,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,1,0,0
+1792719063979,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,1,0,0
+1792719064004,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-3,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,1,0,0
+1792719064016,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,2,0,1
+1792719064062,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,1,0,0
+1792719064047,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2241,225,7,7,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,1
+1792719064133,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,332,197,7,7,http://127.0.0.1:8089/,2,0,1
+1792719064248,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-10,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,2,0,1
+1792719064277,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-6,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,2,0,1
+1792719064296,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2268,209,7,7,http://127.0.0.1:8089/api/products,1,0,0
+1792719064301,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,264,211,7,7,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719064317,1,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-9,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,1,0,0
+1792719064336,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,4488,206,7,7,http://127.0.0.1:8089/api/users,3,0,1
+1792719064376,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-3,text,true,,246,259,7,7,http://127.0.0.1:8089/api/orders,1,0,1
+1792719064447,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,1
+1792719064524,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,1
+1792719064570,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,1
+1792719064584,1,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,332,197,6,6,http://127.0.0.1:8089/,1,0,0
+1792719064602,1,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-7,text,true,,246,259,6,6,http://127.0.0.1:8089/api/orders,1,0,1
+1792719064650,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719064675,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,3,0,2
+1792719064693,4,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,4,0,2
+1792719064708,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,3,0,2
+1792719064751,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,1
+1792719064825,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,3,0,2
+1792719064827,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,2,0,1
+1792719064932,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,2,0,1
+1792719064943,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719064984,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-8,text,true,,246,259,6,6,http://127.0.0.1:8089/api/orders,2,0,1
+1792719065017,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719065108,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,332,197,6,6,http://127.0.0.1:8089/,2,0,0
+1792719065111,1,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,1,0,0
+1792719065113,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-5,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,1,0,0
+1792719065144,21,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719065174,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,264,211,6,6,http://127.0.0.1:8089/api/products/1,1,0,1
+1792719065179,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719065347,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2268,209,6,6,http://127.0.0.1:8089/api/products,2,0,0
+1792719065439,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-6,text,true,,4488,206,6,6,http://127.0.0.1:8089/api/users,2,0,1
+1792719065447,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2241,225,6,6,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,0
+1792719065500,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-5,text,true,,246,259,6,6,http://127.0.0.1:8089/api/orders,2,0,1
+1792719065549,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2241,225,5,5,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719065592,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,4488,206,5,5,http://127.0.0.1:8089/api/users,2,0,1
+1792719065598,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,264,211,5,5,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719065621,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,4488,206,5,5,http://127.0.0.1:8089/api/users,1,0,0
+1792719065722,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-6,text,true,,246,259,5,5,http://127.0.0.1:8089/api/orders,3,0,1
+1792719065876,4,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-10,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,4,0,1
+1792719065882,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719065912,1,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,1,0,0
+1792719066001,6,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-7,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,6,0,4
+1792719066062,11,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,332,197,4,4,http://127.0.0.1:8089/,11,0,6
+1792719066109,6,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,6,0,4
+1792719066203,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,2,0,1
+1792719066278,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-9,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,3,0,1
+1792719066310,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,3,0,1
+1792719066361,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,332,197,4,4,http://127.0.0.1:8089/,2,0,1
+1792719066410,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-8,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,2,0,1
+1792719066505,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,332,197,4,4,http://127.0.0.1:8089/,1,0,0
+1792719066562,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,1
+1792719066755,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,2,0,0
+1792719066786,5,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,332,197,4,4,http://127.0.0.1:8089/,4,0,2
+1792719066841,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,2,0,0
+1792719066861,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719066905,3,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,3,0,1
+1792719066929,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2268,209,4,4,http://127.0.0.1:8089/api/products,2,0,1
+1792719066979,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-10,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,2,0,1
+1792719066995,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719067113,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,332,197,4,4,http://127.0.0.1:8089/,2,0,1
+1792719067148,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,3,0,1
+1792719067219,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,264,211,4,4,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719067309,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-7,text,true,,4488,206,4,4,http://127.0.0.1:8089/api/users,2,0,1
+1792719067431,23,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2241,225,4,4,http://127.0.0.1:8089/api/products/search?q=Laptop,23,0,1
+1792719067497,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-7,text,true,,246,259,4,4,http://127.0.0.1:8089/api/orders,2,0,1
+1792719067501,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2268,209,3,3,http://127.0.0.1:8089/api/products,2,0,0
+1792719067511,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,2241,225,3,3,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719067666,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,264,211,3,3,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719067753,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-8,text,true,,4488,206,3,3,http://127.0.0.1:8089/api/users,3,0,1
+1792719067840,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,4488,206,3,3,http://127.0.0.1:8089/api/users,3,0,1
+1792719067949,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-9,text,true,,246,259,3,3,http://127.0.0.1:8089/api/orders,2,0,1
+1792719067961,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2241,225,3,3,http://127.0.0.1:8089/api/products/search?q=Laptop,22,0,0
+1792719068060,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-8,text,true,,246,259,3,3,http://127.0.0.1:8089/api/orders,3,0,1
+1792719068124,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,4488,206,2,2,http://127.0.0.1:8089/api/users,2,0,1
+1792719068269,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,332,197,2,2,http://127.0.0.1:8089/,2,0,0
+1792719068376,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-10,text,true,,246,259,2,2,http://127.0.0.1:8089/api/orders,2,0,1
+1792719068389,1,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2268,209,2,2,http://127.0.0.1:8089/api/products,1,0,0
+1792719068656,2,GET / - Trang chu,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,332,197,2,2,http://127.0.0.1:8089/,2,0,1
+1792719068736,2,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,264,211,2,2,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719068879,2,GET /api/products - Danh sach san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2268,209,2,2,http://127.0.0.1:8089/api/products,2,0,1
+1792719068882,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,2241,225,2,2,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719069214,3,GET /api/products/1 - Chi tiet san pham,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,264,211,2,2,http://127.0.0.1:8089/api/products/1,2,0,1
+1792719069226,2,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-9,text,true,,4488,206,2,2,http://127.0.0.1:8089/api/users,2,0,1
+1792719069618,2,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-9,text,true,,246,259,2,2,http://127.0.0.1:8089/api/orders,2,0,1
+1792719069617,22,GET /api/products/search - Tim kiem,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,2241,225,1,1,http://127.0.0.1:8089/api/products/search?q=Laptop,21,0,0
+1792719069740,3,GET /api/users - Danh sach nguoi dung,200,OK,Thread Group - Nguoi dung ao 1-10,text,true,,4488,206,1,1,http://127.0.0.1:8089/api/users,3,0,1
+1792719070022,3,POST /api/orders - Tao don hang,201,Created,Thread Group - Nguoi dung ao 1-10,text,true,,246,259,1,1,http://127.0.0.1:8089/api/orders,3,0,1
