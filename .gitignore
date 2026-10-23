@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Dashboard cua kich ban 1 va 3 duoc sinh lai bang scripts/run-tests.sh khi can;
+# repo chi luu san dashboard mau cua kich ban 2 de tranh repo qua nang
+results/dashboard-kich-ban-1-co-ban-10-users/
+results/dashboard-kich-ban-3-stress-100-users/
